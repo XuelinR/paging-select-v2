@@ -1,0 +1,50 @@
+{
+  "name": "paging-select-v2",
+  "version": "0.1.0",
+  "description": "A Vue3 and Element Plus based paginated select component that supports loading large data sets with backend pagination",
+  "private": false,
+  "type": "module",
+  "main": "dist/paging-select-v2.umd.js",
+  "module": "dist/paging-select-v2.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "select",
+    "pagination",
+    "infinite scroll",
+    "mybatis-plus"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.0.0",
+    "paging-select-v2": "file:",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.7.0",
+    "jsdom": "^26.0.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vitest": "^1.6.1",
+    "vue-tsc": "^2.2.4"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.0.0",
+    "vue": "^3.0.0"
+  }
+}
